@@ -1,0 +1,249 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    overflow: hidden;
+    background: #f8f9fa;
+	font-weight: 600;
+	font-size: 11px;
+}
+
+h1 {
+	font-size: 13px;
+	font-weight: 600;
+}
+
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(248, 249, 250, 0.85);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: none;
+}
+
+.pulse { animation: pulse-animation 3.5s infinite; }
+@keyframes pulse-animation {
+    0% { opacity: 0.5; transform: scale(0.99); }
+    50% { opacity: 1; transform: scale(1); }
+    100% { opacity: 0.5; transform: scale(0.99); }
+}
+
+/* ── Control Panel ───────────────────────────── */
+#controls {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+    background: #ffffff;
+    padding: 8px;
+    border: 1px solid #222;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+#controls img {
+    width: 80px;
+}
+
+#controls p {
+    margin: 10px 0 6px 0;
+}
+
+/* ── Panel Container ─────────────────────────── */
+#panel-container {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10;
+    display: none;
+}
+
+#copy-btn, #clear-btn {
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    font-size: 11px;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #222;
+    border-radius: 0;
+    font-weight: bold;
+    color: #222;
+    transition: background 0.15s;
+    box-sizing: border-box;
+    text-align: center;
+}
+#clear-btn {
+    border-top: none;
+    margin-bottom: 0;
+}
+#copy-btn:hover, #clear-btn:hover {
+    background: #222;
+    color: #fff;
+}
+
+#highlight-panel {
+    background: #ffffff;
+    padding: 12px;
+    max-height: 30vh;
+    width: 350px;
+    overflow-y: auto;
+    border: 1px solid #222;
+    border-top: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+#highlight-panel ul { list-style: none; padding: 0; margin: 0; font-size: 12px; }
+#highlight-panel li { margin-bottom: 8px; color: #333; line-height: 1.4; border-bottom: 1px solid #eee; padding-bottom: 4px; }
+
+.matched-terms { font-size: 11px; font-style: italic; }
+.author-link { font-size: 11px;  text-decoration: none; }
+.focus-btn { cursor: pointer; font-weight: bold; margin-right: 5px; user-select: none; }
+.focus-btn:hover { text-decoration: underline; }
+
+/* ── SVG ─────────────────────────────────────── */
+svg { width: 100vw; height: 100vh; cursor: grab; }
+svg:active { cursor: grabbing; }
+
+.node--group circle { fill: rgba(0, 0, 0, 0.02); pointer-events: none; }
+.node--author circle, .node--term circle { fill: #ffffff; stroke: none; }
+.node--leaf circle { fill: Orange; stroke: none; cursor: pointer; transition: fill 0.2s; }
+.node--leaf.selected circle { fill: purple; }
+.node--leaf.group-p circle { fill: tomato; }
+.node--leaf.group-p.selected circle { fill: purple; }
+
+.term-text, .author-text { fill: #ffffff; font-weight: 600; text-anchor: middle; pointer-events: none; }
+.author-arc-text, .term-arc-text { fill: #333; font-weight: bold; pointer-events: none; text-transform: uppercase; }
+.arc-path { fill: none; stroke: none; }
+
+hr { border: none; border-top: 1px solid #ccc; margin: 12px 0; }
+.readmelink { color: black; text-decoration: none; }
+
+svg.has-highlight .node.is-highlighted circle { fill: purple; color: white; }
+
+/* ── Grouping Switch ─────────────────────────── */
+.grouping-switch-btn-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-bottom: 12px;
+}
+.grouping-switch-btn {
+    cursor: pointer;
+    border: 1px solid #222;
+    border-radius: 0;
+    padding: 5px 5px;
+    background: gray;
+    font-size: 11px;
+    color: #222;
+    transition: background 0.15s;
+}
+.grouping-switch-btn + .grouping-switch-btn {
+    border-top: none;
+}
+.grouping-switch-btn:hover {
+    background: #f0f0f0;
+}
+.grouping-switch-active {
+    pointer-events: none;
+    background: white;
+    color: #222;
+}
+
+/* ── Toggle Stacks & Grids ───────────────────── */
+.toggle-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-bottom: 5px;
+}
+
+/* Shared toggle button shell */
+.toggle-btn {
+    display: block;
+    cursor: pointer;
+    user-select: none;
+    margin: 0;
+}
+.toggle-btn input {
+    display: none;
+}
+.toggle-btn span {
+    display: block;
+    padding: 5px 5px;
+    background: gray;
+    border: 1px solid #222;
+    border-radius: 0;
+    text-align: center;
+    font-size: 11px;
+    color: #222;
+    transition: background 0.15s, color 0.15s;
+}
+
+/* Collapse borders in the stack */
+.toggle-stack .toggle-btn + .toggle-btn span {
+    border-top: none;
+    margin-top: 0;
+}
+
+/* Collapse borders in the grid stack */
+.toggle-grid .toggle-btn + .toggle-btn span {
+    border-top: none;
+}
+
+.top-btn-when-grouped-by-category{
+	border-top: 1px solid #222;
+}
+
+
+.toggle-btn input:checked + span {
+    background: white;
+    color: #222;
+    border-color: #222;
+}
+
+/* ── Layout control ──────────────────────────── */
+#layout-control { }
+#layout-control p { margin: 10px 0 6px 0; }
+
+/* misc */
+.red-circle-indicator { color: tomato; }
+.orange-circle-indicator { color: orange; }
+
+#professors-btn input:checked + span{
+  background: tomato;
+  color: #fff;
+  border-color: #222;
+}
+
+#associated-btn input:checked + span{
+  background: orange;
+  color: #fff;
+  border-color: #222;
+}
+
+.toggle-btn:hover span{
+    background: #f0f0f0;
+}
+
+.toggle-btn:hover input:checked + span{
+    background: #f0f0f0;
+}
+
+#professors-btn:hover input:checked + span{
+  background: #ff9a87;
+}
+
+#associated-btn:hover input:checked + span{
+  background: #ffbc40;
+}

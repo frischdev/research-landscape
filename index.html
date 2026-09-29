@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECDF Research Landscape</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <div id="loader"><span class="pulse">Loading ...</span></div>
+
+    <div id="controls">
+        <img src="logo.svg" alt="Logo" onerror="this.style.display='none'">
+        <h1>Research<br>Landscape</h1>
+		
+        <hr>
+
+        <p>Grouping</p>
+        <div class="grouping-switch-btn-group">
+            <button id="btn-group-member" class="grouping-switch-btn grouping-switch-active">By Member</button>
+            <button id="btn-group-category" class="grouping-switch-btn">By Category</button>
+        </div>
+
+        <hr id="layout-hr">
+
+        <p>Members</p>
+        <div class="toggle-stack">
+            <label id="professors-btn" class="toggle-btn">
+                <input type="checkbox" id="check-b" class="data-filter" value="B" checked>
+                <span>Professors</span>
+            </label>
+            <label id="associated-btn" class="toggle-btn">
+                <input type="checkbox" id="check-a" class="data-filter" value="A" checked>
+                <span>Associated</span>
+            </label>
+        </div>
+
+        <hr>
+
+        <p>Categories</p>
+        <div class="toggle-stack">
+            <label class="toggle-btn" id="domain-filter-container">
+                <input type="checkbox" class="cat-filter" value="domain" id="domain-filter">
+                <span>Domain</span>
+            </label>
+            <label class="toggle-btn" id="select-top-btn-when-grouped-by-category">
+                <input type="checkbox" class="cat-filter" value="field" checked>
+                <span>Field</span>
+            </label>
+            <label class="toggle-btn">
+                <input type="checkbox" class="cat-filter" value="subfield" checked>
+                <span>Subfield</span>
+            </label>
+            <label class="toggle-btn" id="topic-filter-container">
+                <input type="checkbox" class="cat-filter" value="topic" id="topic-filter">
+                <span>Topic</span>
+            </label>
+        </div>
+        
+        <hr id="layout-hr">
+        
+        <div id="layout-control">
+            <p>Layout</p>
+            <label class="toggle-btn">
+                <input type="checkbox" id="layout-toggle" checked>
+                <span>Uniform</span>
+            </label>
+            <hr>
+        </div>
+
+        <span class="readme"><a class="readmelink" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1h83oRiUYBVLdYfDtHh1g7xEIOpVH402kwpPGCgyU4gA/edit?usp=sharing"><small>↗ Readme</small></a></span>
+    </div>
+
+    <div id="panel-container">
+        <button id="copy-btn">Copy List to Clipboard</button>
+        <button id="clear-btn">Clear Selection</button>
+        <div id="highlight-panel">
+            <ul id="author-list"></ul>
+        </div>
+    </div>
+
+    <div id="viz"></div>
+
+    <script src="data.js"></script>
+    <script src="viz.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
