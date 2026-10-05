@@ -35717,554 +35717,314 @@
     ],
     "member_group": "profs"
   },
-  {
+{
     "author_full_name": "Guillermo Gallego",
-    "openalex_id": "https://openalex.org/A5046360095",
-    "external_link": "https://orcid.org/0000-0002-9664-3750",
+    "openalex_id": "https://openalex.org/A5068567652",
+    "external_link": "https://orcid.org/0000-0002-2672-9241",
     "publications": [
-      {
-        "title": "Optimal Dynamic Pricing of Inventories with Stochastic Demand over Finite Horizons",
-        "citation": "Guillermo Gallego (1994). Optimal Dynamic Pricing of Inventories with Stochastic Demand over Finite Horizons. Management Science.",
-        "doi": "https://doi.org/10.1287/mnsc.40.8.999",
-        "publication_date": "1994-08-01",
-        "taxonomy": {
-          "domain": "Social Sciences",
-          "field": "Business, Management and Accounting",
-          "subfield": "Management Information Systems",
-          "topic": "Supply Chain and Inventory Management"
+        {
+            "title": "Event-Based Vision: A Survey",
+            "citation": "Guillermo Gallego (2020). Event-Based Vision: A Survey. Zurich Open Repository and Archive (University of Zurich).",
+            "doi": "https://doi.org/10.3929/ethz-b-000521357",
+            "publication_date": "2020-01-01",
+            "taxonomy": {
+                "domain": "Physical Sciences",
+                "field": "Engineering",
+                "subfield": "Electrical and Electronic Engineering",
+                "topic": "Advanced Memory and Neural Computing"
+            }
         },
-        "taxonomy_score": {
-          "domain": 10,
-          "field": 8,
-          "subfield": 4
+        {
+            "title": "The event-camera dataset and simulator: Event-based data for pose estimation, visual odometry, and SLAM",
+            "citation": "Guillermo Gallego (2017). The event-camera dataset and simulator: Event-based data for pose estimation, visual odometry, and SLAM. The International Journal of Robotics Research.",
+            "doi": "https://doi.org/10.1177/0278364917691115",
+            "publication_date": "2017-02-01",
+            "taxonomy": {
+                "domain": "Physical Sciences",
+                "field": "Engineering",
+                "subfield": "Electrical and Electronic Engineering",
+                "topic": "Advanced Memory and Neural Computing"
+            }
         },
-        "taxonomy_rev": {
-          "domain": "Social Sciences",
-          "field": "Decision Sciences",
-          "subfield": "Management Science and Operations Research"
+        {
+            "title": "Event-Based Vision Meets Deep Learning on Steering Prediction for Self-Driving Cars",
+            "citation": "Guillermo Gallego (2018). Event-Based Vision Meets Deep Learning on Steering Prediction for Self-Driving Cars. Zurich Open Repository and Archive (University of Zurich).",
+            "doi": "https://doi.org/10.5167/uzh-175994",
+            "publication_date": "2018-07-23",
+            "taxonomy": {
+                "domain": "Physical Sciences",
+                "field": "Engineering",
+                "subfield": "Electrical and Electronic Engineering",
+                "topic": "Advanced Memory and Neural Computing"
+            }
+        },
+        {
+            "title": "EVO: A Geometric Approach to Event-Based 6-DOF Parallel Tracking and Mapping in Real Time",
+            "citation": "Guillermo Gallego (2016). EVO: A Geometric Approach to Event-Based 6-DOF Parallel Tracking and Mapping in Real Time. IEEE Robotics and Automation Letters.",
+            "doi": "https://doi.org/10.1109/lra.2016.2645143",
+            "publication_date": "2016-12-26",
+            "taxonomy": {
+                "domain": "Physical Sciences",
+                "field": "Engineering",
+                "subfield": "Aerospace Engineering",
+                "topic": "Robotics and Sensor-Based Localization"
+            }
+        },
+        {
+            "title": "EMVS: Event-Based Multi-View Stereo—3D Reconstruction with an Event Camera in Real-Time",
+            "citation": "Guillermo Gallego (2017). EMVS: Event-Based Multi-View Stereo—3D Reconstruction with an Event Camera in Real-Time. International Journal of Computer Vision.",
+            "doi": "https://doi.org/10.1007/s11263-017-1050-6",
+            "publication_date": "2017-11-07",
+            "taxonomy": {
+                "domain": "Physical Sciences",
+                "field": "Engineering",
+                "subfield": "Electrical and Electronic Engineering",
+                "topic": "Advanced Memory and Neural Computing"
+            }
+        },
+        {
+            "title": "A Unifying Contrast Maximization Framework for Event Cameras, with Applications to Motion, Depth, and Optical Flow Estimation",
+            "citation": "Guillermo Gallego (2018). A Unifying Contrast Maximization Framework for Event Cameras, with Applications to Motion, Depth, and Optical Flow Estimation. Zurich Open Repository and Archive (University of Zurich).",
+            "doi": "https://doi.org/10.5167/uzh-176051",
+            "publication_date": "2018-07-23",
+            "taxonomy": {
+                "domain": "Physical Sciences",
+                "field": "Engineering",
+                "subfield": "Electrical and Electronic Engineering",
+                "topic": "Advanced Memory and Neural Computing"
+            }
+        },
+        {
+            "title": "Event-Based Stereo Visual Odometry",
+            "citation": "Guillermo Gallego (2021). Event-Based Stereo Visual Odometry. IEEE Transactions on Robotics.",
+            "doi": "https://doi.org/10.1109/tro.2021.3062252",
+            "publication_date": "2021-03-25",
+            "taxonomy": {
+                "domain": "Physical Sciences",
+                "field": "Engineering",
+                "subfield": "Aerospace Engineering",
+                "topic": "Robotics and Sensor-Based Localization"
+            }
+        },
+        {
+            "title": "EKLT: Asynchronous Photometric Feature Tracking Using Events and Frames",
+            "citation": "Guillermo Gallego (2019). EKLT: Asynchronous Photometric Feature Tracking Using Events and Frames. International Journal of Computer Vision.",
+            "doi": "https://doi.org/10.1007/s11263-019-01209-w",
+            "publication_date": "2019-08-22",
+            "taxonomy": {
+                "domain": "Physical Sciences",
+                "field": "Engineering",
+                "subfield": "Electrical and Electronic Engineering",
+                "topic": "Advanced Memory and Neural Computing"
+            }
+        },
+        {
+            "title": "Event-Based, 6-DOF Camera Tracking from Photometric Depth Maps",
+            "citation": "Guillermo Gallego (2017). Event-Based, 6-DOF Camera Tracking from Photometric Depth Maps. IEEE Transactions on Pattern Analysis and Machine Intelligence.",
+            "doi": "https://doi.org/10.1109/tpami.2017.2769655",
+            "publication_date": "2017-11-03",
+            "taxonomy": {
+                "domain": "Physical Sciences",
+                "field": "Engineering",
+                "subfield": "Electrical and Electronic Engineering",
+                "topic": "Advanced Memory and Neural Computing"
+            }
+        },
+        {
+            "title": "Low-latency visual odometry using event-based feature tracks",
+            "citation": "Guillermo Gallego (2016). Low-latency visual odometry using event-based feature tracks. Unknown Source.",
+            "doi": "https://doi.org/10.1109/iros.2016.7758089",
+            "publication_date": "2016-10-01",
+            "taxonomy": {
+                "domain": "Physical Sciences",
+                "field": "Engineering",
+                "subfield": "Aerospace Engineering",
+                "topic": "Robotics and Sensor-Based Localization"
+            }
+        },
+        {
+            "title": "Accurate Angular Velocity Estimation With an Event Camera",
+            "citation": "Guillermo Gallego (2017). Accurate Angular Velocity Estimation With an Event Camera. IEEE Robotics and Automation Letters.",
+            "doi": "https://doi.org/10.1109/lra.2016.2647639",
+            "publication_date": "2017-01-04",
+            "taxonomy": {
+                "domain": "Physical Sciences",
+                "field": "Engineering",
+                "subfield": "Electrical and Electronic Engineering",
+                "topic": "Advanced Memory and Neural Computing"
+            }
+        },
+        {
+            "title": "Asynchronous, Photometric Feature Tracking Using Events and Frames",
+            "citation": "Guillermo Gallego (2018). Asynchronous, Photometric Feature Tracking Using Events and Frames. Lecture notes in computer science.",
+            "doi": "https://doi.org/10.1007/978-3-030-01258-8_46",
+            "publication_date": "2018-01-01",
+            "taxonomy": {
+                "domain": "Physical Sciences",
+                "field": "Engineering",
+                "subfield": "Electrical and Electronic Engineering",
+                "topic": "Advanced Memory and Neural Computing"
+            }
+        },
+        {
+            "title": "Event-Based Motion Segmentation by Motion Compensation",
+            "citation": "Guillermo Gallego (2019). Event-Based Motion Segmentation by Motion Compensation. Unknown Source.",
+            "doi": "https://doi.org/10.1109/iccv.2019.00734",
+            "publication_date": "2019-10-01",
+            "taxonomy": {
+                "domain": "Physical Sciences",
+                "field": "Engineering",
+                "subfield": "Electrical and Electronic Engineering",
+                "topic": "Advanced Memory and Neural Computing"
+            }
+        },
+        {
+            "title": "Focus Is All You Need: Loss Functions for Event-Based Vision",
+            "citation": "Guillermo Gallego (2019). Focus Is All You Need: Loss Functions for Event-Based Vision. Unknown Source.",
+            "doi": "https://doi.org/10.1109/cvpr.2019.01256",
+            "publication_date": "2019-06-01",
+            "taxonomy": {
+                "domain": "Physical Sciences",
+                "field": "Engineering",
+                "subfield": "Electrical and Electronic Engineering",
+                "topic": "Advanced Memory and Neural Computing"
+            }
+        },
+        {
+            "title": "Semi-dense 3D Reconstruction with a Stereo Event Camera",
+            "citation": "Guillermo Gallego (2018). Semi-dense 3D Reconstruction with a Stereo Event Camera. Lecture notes in computer science.",
+            "doi": "https://doi.org/10.1007/978-3-030-01246-5_15",
+            "publication_date": "2018-01-01",
+            "taxonomy": {
+                "domain": "Physical Sciences",
+                "field": "Engineering",
+                "subfield": "Electrical and Electronic Engineering",
+                "topic": "Advanced Memory and Neural Computing"
+            }
+        },
+        {
+            "title": "Lifetime estimation of events from Dynamic Vision Sensors",
+            "citation": "Guillermo Gallego (2015). Lifetime estimation of events from Dynamic Vision Sensors. Unknown Source.",
+            "doi": "https://doi.org/10.1109/icra.2015.7139876",
+            "publication_date": "2015-05-01",
+            "taxonomy": {
+                "domain": "Physical Sciences",
+                "field": "Engineering",
+                "subfield": "Electrical and Electronic Engineering",
+                "topic": "CCD and CMOS Imaging Sensors"
+            }
+        },
+        {
+            "title": "Event-aided Direct Sparse Odometry",
+            "citation": "Guillermo Gallego (2022). Event-aided Direct Sparse Odometry. 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR).",
+            "doi": "https://doi.org/10.1109/cvpr52688.2022.00569",
+            "publication_date": "2022-06-01",
+            "taxonomy": {
+                "domain": "Physical Sciences",
+                "field": "Engineering",
+                "subfield": "Aerospace Engineering",
+                "topic": "Robotics and Sensor-Based Localization"
+            }
+        },
+        {
+            "title": "Feature detection and tracking with the dynamic and active-pixel vision sensor (DAVIS)",
+            "citation": "Guillermo Gallego (2016). Feature detection and tracking with the dynamic and active-pixel vision sensor (DAVIS). Unknown Source.",
+            "doi": "https://doi.org/10.1109/ebccsp.2016.7605086",
+            "publication_date": "2016-06-01",
+            "taxonomy": {
+                "domain": "Physical Sciences",
+                "field": "Engineering",
+                "subfield": "Electrical and Electronic Engineering",
+                "topic": "Advanced Memory and Neural Computing"
+            }
+        },
+        {
+            "title": "Secrets of Event-Based Optical Flow",
+            "citation": "Guillermo Gallego (2022). Secrets of Event-Based Optical Flow. Lecture notes in computer science.",
+            "doi": "https://doi.org/10.1007/978-3-031-19797-0_36",
+            "publication_date": "2022-01-01",
+            "taxonomy": {
+                "domain": "Physical Sciences",
+                "field": "Engineering",
+                "subfield": "Electrical and Electronic Engineering",
+                "topic": "Advanced Memory and Neural Computing"
+            }
+        },
+        {
+            "title": "A Compact Formula for the Derivative of a 3-D Rotation in Exponential Coordinates",
+            "citation": "Guillermo Gallego (2014). A Compact Formula for the Derivative of a 3-D Rotation in Exponential Coordinates. Journal of Mathematical Imaging and Vision.",
+            "doi": "https://doi.org/10.1007/s10851-014-0528-x",
+            "publication_date": "2014-08-18",
+            "taxonomy": {
+                "domain": "Physical Sciences",
+                "field": "Physics and Astronomy",
+                "subfield": "Statistical and Nonlinear Physics",
+                "topic": "Scientific Research and Discoveries"
+            }
+        },
+        {
+            "title": "Event-based, Direct Camera Tracking from a Photometric 3D Map using Nonlinear Optimization",
+            "citation": "Guillermo Gallego (2019). Event-based, Direct Camera Tracking from a Photometric 3D Map using Nonlinear Optimization. Unknown Source.",
+            "doi": "https://doi.org/10.1109/icra.2019.8794255",
+            "publication_date": "2019-05-01",
+            "taxonomy": {
+                "domain": "Physical Sciences",
+                "field": "Engineering",
+                "subfield": "Electrical and Electronic Engineering",
+                "topic": "Advanced Memory and Neural Computing"
+            }
+        },
+        {
+            "title": "Event-Based Motion Segmentation With Spatio-Temporal Graph Cuts",
+            "citation": "Guillermo Gallego (2021). Event-Based Motion Segmentation With Spatio-Temporal Graph Cuts. IEEE Transactions on Neural Networks and Learning Systems.",
+            "doi": "https://doi.org/10.1109/tnnls.2021.3124580",
+            "publication_date": "2021-11-12",
+            "taxonomy": {
+                "domain": "Physical Sciences",
+                "field": "Computer Science",
+                "subfield": "Computer Vision and Pattern Recognition",
+                "topic": "Video Surveillance and Tracking Methods"
+            }
+        },
+        {
+            "title": "Semi-dense 3D Reconstruction with a Stereo Event Camera",
+            "citation": "Guillermo Gallego (2018). Semi-dense 3D Reconstruction with a Stereo Event Camera. Zurich Open Repository and Archive (University of Zurich).",
+            "doi": "https://doi.org/10.5167/uzh-176054",
+            "publication_date": "2018-01-01",
+            "taxonomy": {
+                "domain": "Physical Sciences",
+                "field": "Engineering",
+                "subfield": "Electrical and Electronic Engineering",
+                "topic": "Advanced Memory and Neural Computing"
+            }
+        },
+        {
+            "title": "Secrets of Event-Based Optical Flow, Depth and Ego-Motion Estimation by Contrast Maximization",
+            "citation": "Guillermo Gallego (2024). Secrets of Event-Based Optical Flow, Depth and Ego-Motion Estimation by Contrast Maximization. IEEE Transactions on Pattern Analysis and Machine Intelligence.",
+            "doi": "https://doi.org/10.1109/tpami.2024.3396116",
+            "publication_date": "2024-05-02",
+            "taxonomy": {
+                "domain": "Physical Sciences",
+                "field": "Engineering",
+                "subfield": "Electrical and Electronic Engineering",
+                "topic": "Advanced Memory and Neural Computing"
+            }
+        },
+        {
+            "title": "Continuous-Time Visual-Inertial Odometry for Event Cameras",
+            "citation": "Guillermo Gallego (2019). Continuous-Time Visual-Inertial Odometry for Event Cameras. Zurich Open Repository and Archive (University of Zurich).",
+            "doi": "https://doi.org/10.5167/uzh-175988",
+            "publication_date": "2019-01-01",
+            "taxonomy": {
+                "domain": "Physical Sciences",
+                "field": "Engineering",
+                "subfield": "Electrical and Electronic Engineering",
+                "topic": "Advanced Memory and Neural Computing"
+            }
         }
-      },
-      {
-        "title": "The Distribution Free Newsboy Problem: Review and Extensions",
-        "citation": "Guillermo Gallego (1993). The Distribution Free Newsboy Problem: Review and Extensions. Journal of the Operational Research Society.",
-        "doi": "https://doi.org/10.1057/jors.1993.141",
-        "publication_date": "1993-08-01",
-        "taxonomy": {
-          "domain": "Social Sciences",
-          "field": "Business, Management and Accounting",
-          "subfield": "Management Information Systems",
-          "topic": "Supply Chain and Inventory Management"
-        },
-        "taxonomy_score": {
-          "domain": 10,
-          "field": 8,
-          "subfield": 4
-        },
-        "taxonomy_rev": {
-          "domain": "Social Sciences",
-          "field": "Decision Sciences",
-          "subfield": "Management Science and Operations Research"
-        }
-      },
-      {
-        "title": "A Multiproduct Dynamic Pricing Problem and Its Applications to Network Yield Management",
-        "citation": "Guillermo Gallego (1997). A Multiproduct Dynamic Pricing Problem and Its Applications to Network Yield Management. Operations Research.",
-        "doi": "https://doi.org/10.1287/opre.45.1.24",
-        "publication_date": "1997-02-01",
-        "taxonomy": {
-          "domain": "Social Sciences",
-          "field": "Business, Management and Accounting",
-          "subfield": "Management Information Systems",
-          "topic": "Supply Chain and Inventory Management"
-        },
-        "taxonomy_score": {
-          "domain": 10,
-          "field": 8,
-          "subfield": 4
-        },
-        "taxonomy_rev": {
-          "domain": "Social Sciences",
-          "field": "Decision Sciences",
-          "subfield": "Management Science and Operations Research"
-        }
-      },
-      {
-        "title": "Optimal Starting Times for End-of-Season Sales and Optimal Stopping Times for Promotional Fares",
-        "citation": "Guillermo Gallego (1995). Optimal Starting Times for End-of-Season Sales and Optimal Stopping Times for Promotional Fares. Management Science.",
-        "doi": "https://doi.org/10.1287/mnsc.41.8.1371",
-        "publication_date": "1995-08-01",
-        "taxonomy": {
-          "domain": "Social Sciences",
-          "field": "Business, Management and Accounting",
-          "subfield": "Management Information Systems",
-          "topic": "Supply Chain and Inventory Management"
-        },
-        "taxonomy_score": {
-          "domain": 10,
-          "field": 8,
-          "subfield": 4
-        },
-        "taxonomy_rev": {
-          "domain": "Social Sciences",
-          "field": "Decision Sciences",
-          "subfield": "Management Science and Operations Research"
-        }
-      },
-      {
-        "title": "Assortment Optimization Under Variants of the Nested Logit Model",
-        "citation": "Guillermo Gallego (2014). Assortment Optimization Under Variants of the Nested Logit Model. Operations Research.",
-        "doi": "https://doi.org/10.1287/opre.2014.1256",
-        "publication_date": "2014-03-27",
-        "taxonomy": {
-          "domain": "Social Sciences",
-          "field": "Business, Management and Accounting",
-          "subfield": "Management Information Systems",
-          "topic": "Supply Chain and Inventory Management"
-        },
-        "taxonomy_score": {
-          "domain": 10,
-          "field": 8,
-          "subfield": 4
-        },
-        "taxonomy_rev": {
-          "domain": "Social Sciences",
-          "field": "Decision Sciences",
-          "subfield": "Management Science and Operations Research"
-        }
-      },
-      {
-        "title": "A Markov Chain Approximation to Choice Modeling",
-        "citation": "Guillermo Gallego (2016). A Markov Chain Approximation to Choice Modeling. Operations Research.",
-        "doi": "https://doi.org/10.1287/opre.2016.1505",
-        "publication_date": "2016-06-15",
-        "taxonomy": {
-          "domain": "Social Sciences",
-          "field": "Business, Management and Accounting",
-          "subfield": "Management Information Systems",
-          "topic": "Supply Chain and Inventory Management"
-        },
-        "taxonomy_score": {
-          "domain": 10,
-          "field": 8,
-          "subfield": 4
-        },
-        "taxonomy_rev": {
-          "domain": "Social Sciences",
-          "field": "Business, Management and Accounting",
-          "subfield": "Marketing"
-        }
-      },
-      {
-        "title": "Integrating Replenishment Decisions with Advance Demand Information",
-        "citation": "Guillermo Gallego (2001). Integrating Replenishment Decisions with Advance Demand Information. Management Science.",
-        "doi": "https://doi.org/10.1287/mnsc.47.10.1344.10261",
-        "publication_date": "2001-10-01",
-        "taxonomy": {
-          "domain": "Social Sciences",
-          "field": "Business, Management and Accounting",
-          "subfield": "Management Information Systems",
-          "topic": "Supply Chain and Inventory Management"
-        },
-        "taxonomy_score": {
-          "domain": 10,
-          "field": 8,
-          "subfield": 4
-        },
-        "taxonomy_rev": {
-          "domain": "Social Sciences",
-          "field": "Decision Sciences",
-          "subfield": "Management Science and Operations Research"
-        }
-      },
-      {
-        "title": "Supply Chain Coordination in a Market with Customer Service Competition",
-        "citation": "Guillermo Gallego (2004). Supply Chain Coordination in a Market with Customer Service Competition. Production and Operations Management.",
-        "doi": "https://doi.org/10.1111/j.1937-5956.2004.tb00141.x",
-        "publication_date": "2004-01-03",
-        "taxonomy": {
-          "domain": "Social Sciences",
-          "field": "Business, Management and Accounting",
-          "subfield": "Management Information Systems",
-          "topic": "Supply Chain and Inventory Management"
-        },
-        "taxonomy_score": {
-          "domain": 10,
-          "field": 8,
-          "subfield": 4
-        },
-        "taxonomy_rev": {
-          "domain": "Social Sciences",
-          "field": "Decision Sciences",
-          "subfield": "Management Science and Operations Research"
-        }
-      },
-      {
-        "title": "Constrained Assortment Optimization for the Nested Logit Model",
-        "citation": "Guillermo Gallego (2014). Constrained Assortment Optimization for the Nested Logit Model. Management Science.",
-        "doi": "https://doi.org/10.1287/mnsc.2014.1931",
-        "publication_date": "2014-07-16",
-        "taxonomy": {
-          "domain": "Social Sciences",
-          "field": "Business, Management and Accounting",
-          "subfield": "Management Information Systems",
-          "topic": "Supply Chain and Inventory Management"
-        },
-        "taxonomy_score": {
-          "domain": 10,
-          "field": 8,
-          "subfield": 4
-        },
-        "taxonomy_rev": {
-          "domain": "Social Sciences",
-          "field": "Decision Sciences",
-          "subfield": "Management Science and Operations Research"
-        }
-      },
-      {
-        "title": "Dynamic Pricing of Perishable Assets Under Competition",
-        "citation": "Guillermo Gallego (2014). Dynamic Pricing of Perishable Assets Under Competition. Management Science.",
-        "doi": "https://doi.org/10.1287/mnsc.2013.1821",
-        "publication_date": "2014-01-17",
-        "taxonomy": {
-          "domain": "Social Sciences",
-          "field": "Business, Management and Accounting",
-          "subfield": "Management Information Systems",
-          "topic": "Supply Chain and Inventory Management"
-        },
-        "taxonomy_score": {
-          "domain": 10,
-          "field": 8,
-          "subfield": 4
-        },
-        "taxonomy_rev": {
-          "domain": "Social Sciences",
-          "field": "Decision Sciences",
-          "subfield": "Management Science and Operations Research"
-        }
-      },
-      {
-        "title": "Revenue Management and Pricing Analytics",
-        "citation": "Guillermo Gallego (2019). Revenue Management and Pricing Analytics. International series in management science/operations research/International series in operations research & management science.",
-        "doi": "https://doi.org/10.1007/978-1-4939-9606-3",
-        "publication_date": "2019-01-01",
-        "taxonomy": {
-          "domain": "Social Sciences",
-          "field": "Business, Management and Accounting",
-          "subfield": "Management Information Systems",
-          "topic": "Supply Chain and Inventory Management"
-        },
-        "taxonomy_score": {
-          "domain": 10,
-          "field": 8,
-          "subfield": 4
-        },
-        "taxonomy_rev": {
-          "domain": "Social Sciences",
-          "field": "Decision Sciences",
-          "subfield": "Management Science and Operations Research"
-        }
-      },
-      {
-        "title": "A General Attraction Model and Sales-Based Linear Program for Network Revenue Management Under Customer Choice",
-        "citation": "Guillermo Gallego (2014). A General Attraction Model and Sales-Based Linear Program for Network Revenue Management Under Customer Choice. Operations Research.",
-        "doi": "https://doi.org/10.1287/opre.2014.1328",
-        "publication_date": "2014-12-23",
-        "taxonomy": {
-          "domain": "Social Sciences",
-          "field": "Business, Management and Accounting",
-          "subfield": "Management Information Systems",
-          "topic": "Supply Chain and Inventory Management"
-        },
-        "taxonomy_score": {
-          "domain": 10,
-          "field": 8,
-          "subfield": 4
-        },
-        "taxonomy_rev": {
-          "domain": "Social Sciences",
-          "field": "Business, Management and Accounting",
-          "subfield": "Marketing"
-        }
-      },
-      {
-        "title": "Revenue Management of Flexible Products",
-        "citation": "Guillermo Gallego (2004). Revenue Management of Flexible Products. Manufacturing & Service Operations Management.",
-        "doi": "https://doi.org/10.1287/msom.1040.0054",
-        "publication_date": "2004-10-01",
-        "taxonomy": {
-          "domain": "Social Sciences",
-          "field": "Business, Management and Accounting",
-          "subfield": "Management Information Systems",
-          "topic": "Supply Chain and Inventory Management"
-        },
-        "taxonomy_score": {
-          "domain": 10,
-          "field": 8,
-          "subfield": 4
-        },
-        "taxonomy_rev": {
-          "domain": "Social Sciences",
-          "field": "Decision Sciences",
-          "subfield": "Management Science and Operations Research"
-        }
-      },
-      {
-        "title": "Assortment Planning under the Multinomial Logit Model with Totally Unimodular Constraint Structures",
-        "citation": "Guillermo Gallego (2013). Assortment Planning under the Multinomial Logit Model with Totally Unimodular Constraint Structures. Unknown Source.",
-        "doi": "null",
-        "publication_date": "2013-01-01",
-        "taxonomy": {
-          "domain": "Social Sciences",
-          "field": "Business, Management and Accounting",
-          "subfield": "Management Information Systems",
-          "topic": "Supply Chain and Inventory Management"
-        },
-        "taxonomy_score": {
-          "domain": 10,
-          "field": 8,
-          "subfield": 4
-        },
-        "taxonomy_rev": {
-          "domain": "Social Sciences",
-          "field": "Decision Sciences",
-          "subfield": "Management Science and Operations Research"
-        }
-      },
-      {
-        "title": "Revenue-Utility Tradeoff in Assortment Optimization Under the Multinomial Logit Model with Totally Unimodular Constraints",
-        "citation": "Guillermo Gallego (2020). Revenue-Utility Tradeoff in Assortment Optimization Under the Multinomial Logit Model with Totally Unimodular Constraints. Management Science.",
-        "doi": "https://doi.org/10.1287/mnsc.2020.3657",
-        "publication_date": "2020-10-06",
-        "taxonomy": {
-          "domain": "Social Sciences",
-          "field": "Business, Management and Accounting",
-          "subfield": "Management Information Systems",
-          "topic": "Supply Chain and Inventory Management"
-        },
-        "taxonomy_score": {
-          "domain": 10,
-          "field": 8,
-          "subfield": 4
-        },
-        "taxonomy_rev": {
-          "domain": "Social Sciences",
-          "field": "Decision Sciences",
-          "subfield": "Management Science and Operations Research"
-        }
-      },
-      {
-        "title": "Approximation Algorithms for Product Framing and Pricing",
-        "citation": "Guillermo Gallego (2020). Approximation Algorithms for Product Framing and Pricing. Operations Research.",
-        "doi": "https://doi.org/10.1287/opre.2019.1875",
-        "publication_date": "2020-01-01",
-        "taxonomy": {
-          "domain": "Social Sciences",
-          "field": "Business, Management and Accounting",
-          "subfield": "Marketing",
-          "topic": "Consumer Market Behavior and Pricing"
-        },
-        "taxonomy_score": {
-          "domain": 10,
-          "field": 8,
-          "subfield": 10
-        }
-      },
-      {
-        "title": "Assortment Optimization and Pricing Under the Multinomial Logit Model with Impatient Customers: Sequential Recommendation and Selection",
-        "citation": "Guillermo Gallego (2021). Assortment Optimization and Pricing Under the Multinomial Logit Model with Impatient Customers: Sequential Recommendation and Selection. Operations Research.",
-        "doi": "https://doi.org/10.1287/opre.2021.2127",
-        "publication_date": "2021-08-20",
-        "taxonomy": {
-          "domain": "Social Sciences",
-          "field": "Business, Management and Accounting",
-          "subfield": "Management Information Systems",
-          "topic": "Supply Chain and Inventory Management"
-        },
-        "taxonomy_score": {
-          "domain": 10,
-          "field": 8,
-          "subfield": 4
-        },
-        "taxonomy_rev": {
-          "domain": "Social Sciences",
-          "field": "Decision Sciences",
-          "subfield": "Management Science and Operations Research"
-        }
-      },
-      {
-        "title": "Welfare Analysis of Dynamic Pricing",
-        "citation": "Guillermo Gallego (2018). Welfare Analysis of Dynamic Pricing. Management Science.",
-        "doi": "https://doi.org/10.1287/mnsc.2017.2943",
-        "publication_date": "2018-05-04",
-        "taxonomy": {
-          "domain": "Social Sciences",
-          "field": "Business, Management and Accounting",
-          "subfield": "Management Information Systems",
-          "topic": "Supply Chain and Inventory Management"
-        },
-        "taxonomy_score": {
-          "domain": 10,
-          "field": 8,
-          "subfield": 4
-        },
-        "taxonomy_rev": {
-          "domain": "Social Sciences",
-          "field": "Decision Sciences",
-          "subfield": "Management Science and Operations Research"
-        }
-      },
-      {
-        "title": "Nonparametric Pricing Analytics with Customer Covariates",
-        "citation": "Guillermo Gallego (2021). Nonparametric Pricing Analytics with Customer Covariates. Operations Research.",
-        "doi": "https://doi.org/10.1287/opre.2020.2016",
-        "publication_date": "2021-02-16",
-        "taxonomy": {
-          "domain": "Social Sciences",
-          "field": "Business, Management and Accounting",
-          "subfield": "Marketing",
-          "topic": "Consumer Market Behavior and Pricing"
-        },
-        "taxonomy_score": {
-          "domain": 10,
-          "field": 8,
-          "subfield": 3
-        },
-        "taxonomy_rev": {
-          "domain": "Social Sciences",
-          "field": "Decision Sciences",
-          "subfield": "Management Science and Operations Research"
-        }
-      },
-      {
-        "title": "A Primal–Dual Learning Algorithm for Personalized Dynamic Pricing with an Inventory Constraint",
-        "citation": "Guillermo Gallego (2022). A Primal–Dual Learning Algorithm for Personalized Dynamic Pricing with an Inventory Constraint. Mathematics of Operations Research.",
-        "doi": "https://doi.org/10.1287/moor.2021.1220",
-        "publication_date": "2022-02-10",
-        "taxonomy": {
-          "domain": "Social Sciences",
-          "field": "Decision Sciences",
-          "subfield": "Management Science and Operations Research",
-          "topic": "Advanced Bandit Algorithms Research"
-        },
-        "taxonomy_score": {
-          "domain": 10,
-          "field": 10,
-          "subfield": 10
-        }
-      },
-      {
-        "title": "A Random Consideration Set Model for Demand Estimation, Assortment Optimization, and Pricing",
-        "citation": "Guillermo Gallego (2024). A Random Consideration Set Model for Demand Estimation, Assortment Optimization, and Pricing. Operations Research.",
-        "doi": "https://doi.org/10.1287/opre.2019.0333",
-        "publication_date": "2024-03-25",
-        "taxonomy": {
-          "domain": "Social Sciences",
-          "field": "Business, Management and Accounting",
-          "subfield": "Management Information Systems",
-          "topic": "Supply Chain and Inventory Management"
-        },
-        "taxonomy_score": {
-          "domain": 10,
-          "field": 8,
-          "subfield": 4
-        },
-        "taxonomy_rev": {
-          "domain": "Social Sciences",
-          "field": "Decision Sciences",
-          "subfield": "Management Science and Operations Research"
-        }
-      },
-      {
-        "title": "On the Effectiveness of Direct Shipping Strategy for the One-Warehouse Multi-Retailer R-Systems",
-        "citation": "Guillermo Gallego (1990). On the Effectiveness of Direct Shipping Strategy for the One-Warehouse Multi-Retailer R-Systems. Management Science.",
-        "doi": "https://doi.org/10.1287/mnsc.36.2.240",
-        "publication_date": "1990-02-01",
-        "taxonomy": {
-          "domain": "Physical Sciences",
-          "field": "Engineering",
-          "subfield": "Automotive Engineering",
-          "topic": "Transportation and Mobility Innovations"
-        },
-        "taxonomy_score": {
-          "domain": 2,
-          "field": 2,
-          "subfield": 2
-        },
-        "taxonomy_rev": {
-          "domain": "Social Sciences",
-          "field": "Decision Sciences",
-          "subfield": "Management Science and Operations Research"
-        }
-      },
-      {
-        "title": "Distribution Free Procedures for Some Inventory Models",
-        "citation": "Guillermo Gallego (1994). Distribution Free Procedures for Some Inventory Models. Journal of the Operational Research Society.",
-        "doi": "https://doi.org/10.1057/jors.1994.103",
-        "publication_date": "1994-06-01",
-        "taxonomy": {
-          "domain": "Social Sciences",
-          "field": "Business, Management and Accounting",
-          "subfield": "Management Information Systems",
-          "topic": "Supply Chain and Inventory Management"
-        },
-        "taxonomy_score": {
-          "domain": 10,
-          "field": 8,
-          "subfield": 4
-        },
-        "taxonomy_rev": {
-          "domain": "Social Sciences",
-          "field": "Decision Sciences",
-          "subfield": "Management Science and Operations Research"
-        }
-      },
-      {
-        "title": "Coordinating pricing and inventory replenishment policies for one wholesaler and one or more geographically dispersed retailers",
-        "citation": "Guillermo Gallego (2002). Coordinating pricing and inventory replenishment policies for one wholesaler and one or more geographically dispersed retailers. International Journal of Production Economics.",
-        "doi": "https://doi.org/10.1016/s0925-5273(01)00229-8",
-        "publication_date": "2002-05-01",
-        "taxonomy": {
-          "domain": "Social Sciences",
-          "field": "Business, Management and Accounting",
-          "subfield": "Management Information Systems",
-          "topic": "Supply Chain and Inventory Management"
-        },
-        "taxonomy_score": {
-          "domain": 10,
-          "field": 8,
-          "subfield": 4
-        },
-        "taxonomy_rev": {
-          "domain": "Social Sciences",
-          "field": "Decision Sciences",
-          "subfield": "Management Science and Operations Research"
-        }
-      },
-      {
-        "title": "Perishable Asset Revenue Management with Markovian Time Dependent Demand Intensities",
-        "citation": "Guillermo Gallego (2000). Perishable Asset Revenue Management with Markovian Time Dependent Demand Intensities. Management Science.",
-        "doi": "https://doi.org/10.1287/mnsc.46.7.941.12035",
-        "publication_date": "2000-07-01",
-        "taxonomy": {
-          "domain": "Social Sciences",
-          "field": "Business, Management and Accounting",
-          "subfield": "Management Information Systems",
-          "topic": "Supply Chain and Inventory Management"
-        },
-        "taxonomy_score": {
-          "domain": 10,
-          "field": 8,
-          "subfield": 4
-        },
-        "taxonomy_rev": {
-          "domain": "Social Sciences",
-          "field": "Decision Sciences",
-          "subfield": "Management Science and Operations Research"
-        }
-      }
     ],
-    "member_group": "profs"
-  },
+	    "member_group": "profs"
+},
   {
     "author_full_name": "Hanna Zimmermann",
     "openalex_id": "https://openalex.org/A5065023523",
